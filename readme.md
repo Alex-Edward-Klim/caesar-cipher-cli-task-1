@@ -2,8 +2,11 @@
 Pay close attention to the point number **9** in the [crosscheck description](https://github.com/rolling-scopes-school/nodejs-course-template/blob/master/CROSSCHECK.md)!
 Please, NOTE (!) that if you are using **stdin** as an input source while the **output file** is provided, remember to REFRESH the **output file** ALWAYS after pressing "Enter" to see changes! E.g.: if you are using VSCode, then after pressing "Enter" switch away from the **output file** and then switch back to this **output file**, because VSCode does NOT always update file changes correctly!
 
-## First RUN:
+## BEFORE (!) running npm install NAVIGATE to the caesar-cipher-cli-task-1 folder!
+
+## Only AFTER that RUN:
 **npm install**
+because package.json is located in the **caesar-cipher-cli-task-1** folder!
 
 ## Then RUN:
 **node index.js** with the following options:
